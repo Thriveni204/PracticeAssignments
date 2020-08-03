@@ -1,0 +1,134 @@
+1.What you have learnt on coading concepts?
+A: In order to implement a code first we have know about what are prerequisites,logic,how actually we can implement that logic and how the code will react. 
+
+2.what you have learn stnadardizing code?  
+A: We have to write a code in such a manner that the code will be understandable to any user.  
+
+3.what is the difference between sonarqube and sonarlint?
+
+sonarqube: sonarqube is a central server. it analyzes all the source lines of your project on a regular basis.
+
+sonarlint: it gives feedback for the code you entered. it is alsoavilable in the IDE.
+
+
+
+
+4.programm for instanceVariable
+
+public class instanceVariable  //creating class for instanceVariable
+{
+ public void studentAge()
+  {
+    int age=18;     //variable age is defined
+    int age1=21;    //variabel age1 is defined
+    system.out.println(age);  //print the value which is assigend to age
+    system.out.println(age1);  //print the value which is assignes to age1
+    system.out.println("Age of student is:" +age);  // print the statement Age of student is: 18
+}
+
+ public static void main(string[] args)   //need to create an object >>instance of class>> local variable
+ {
+  instanceVariable obj=new instanceVariable();  //object created for method instance variable
+  obj.studentAge();
+ }
+}
+
+
+5.programm for staticVariable
+
+public class staticVariable  //creating class for instanceVariable
+{
+ public void studentMarks()
+  {
+    int m1=77;     //variable m is defined
+    int m2=65;    //variabel m1 is defined
+    system.out.println(m);  //print the value which is assigend to m
+    system.out.println(m1);  //print the value which is assignes to m1
+    system.out.println("student marks in m1 is:" +m1);  // print the statement student marksin m1 is:65
+}
+
+ public static void main(string[] args)   //need to create an object >>instance of class>> local variable
+ {
+  instanceVariable obj=new instanceVariable();  //object created for method staticVariable
+  obj.studentAge();
+ }
+}
+
+6.use continue ,return in if else conditions considering two integer variables
+
+import java.util.scanner;
+public class ifelse{
+public static void main(string[] args)
+{
+scanner sc=new scanner(system.in);
+int a=sc.nextint();
+int b=sc.nextint();
+if(a>b){
+system.out.println(" a is greater:");
+}
+else{
+system.out.println("b id big:");
+}
+}
+
+Using switch
+
+impoert java.until.scanner;
+public class switchcase{
+public static void main(string[] args)
+{
+scanner sc=new scanner(system.in);
+int a=sc.nextint();
+int b=sc.nextint();
+int c=sc.nextint();
+switch(i){
+case a:system.out.println("a");
+break;
+case b:system.out.println("b");
+break;
+case c:system.out.println("c");
+break;
+default:system.out.println("print either values a,b or c");
+}
+}
+
+7.arrays in java programming example
+ 
+import java.util.scanner;
+public class arraysum{
+public static void main(string[] args)
+int s=0;
+scanner sc=new scanner(system.in)
+int n=sc.nextint();
+int ar[]=new int [n]
+for(int i=0;i<n;i++)
+ar[i]=sc.nextint();
+for(i=0;i<n;i++)
+s=s+i;
+system.out.println(s);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
